@@ -1,0 +1,227 @@
+body {
+    color: #693265;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(63, 47, 68);
+}
+
+/*****************HEADERS*******************/
+
+hr {
+    width: 100%;
+    border: dotted #f4d9dd 10px;
+    border-bottom: none; 
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 500%;
+    margin: 50px auto 30px auto;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #f4d9dd;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10PX;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+h4 {
+    color: #f4d9dd;
+}
+
+p {
+    position: relative;
+    top: 30px;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 2;
+
+}
+
+a {
+    color: #222831;
+    font-family: 'Montserrat', sans-serif ;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:  #693265;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: "Montserrat-Light";
+    color:  #f4d9dd;
+}
+
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 40px;
+
+}
+
+.fin {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/***************IMAGENES**********************/
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.rando-cloud {
+    position: absolute;
+    right: 400px;
+    top: 460px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.more-cloud {
+    position: absolute;
+    left: 500px;
+    top: 70px;
+}
+
+.joints {
+    width: 25%;
+    position: absolute;
+    bottom: 120px;
+    left: 710px;
+}
+
+.loud-speaker {
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 20;
+}
+
+.guitar {
+    width: 25%;
+    float: right;
+    margin: 0 40px 0 40px;
+}
+
+.flex {
+    width: 25%;
+    float: left;
+    margin: 0 40px 0 40px;
+}
+
+.production {
+    width: 25%;
+    float: right;
+    margin: 0 40px 0 40px;
+}
+
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+}
+
+.mundo {
+    width: 25%;
+    float: right;
+    margin: 0 40px 0 40px;
+}
+
+.h2 {
+    color: silver;
+}
+
+.artistas {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: black;
+    font-size: .75rem;
+    padding: 20px 0;
+}
+
+.icon {
+    width: 3%;
+}
+
+/***********************CONTAINERS********************/
+
+.top-container {
+    background-color: #f4d9dd;
+    height: 880px;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 275px;
+    border-radius: 35px;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #f4d9dd;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    
+}
+
+/*************************HOVER-CONTACT-BUTTON************************/ 
+
+.btn {
+    background: #f4d9dd;
+    background-image: -webkit-linear-gradient(top, #f4d9dd, #f4d9dd);
+    background-image: -moz-linear-gradient(top, #f4d9dd, #f4d9dd);
+    background-image: -ms-linear-gradient(top, #f4d9dd, #f4d9dd);
+    background-image: -o-linear-gradient(top, #f4d9dd, #f4d9dd);
+    background-image: linear-gradient(to bottom, #f4d9dd, #f4d9dd);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Georgia;
+    color: #737373;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #f4d9dd 2px;
+    text-decoration: none;
+  }
+  
+ 
